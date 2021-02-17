@@ -98,7 +98,7 @@ return [
             'match' => [
 
                 /*
-                 * Match only routes whose domains match this pattern (use * as a wildcard to match any characters).
+                 * Matcher only routes whose domains match this pattern (use * as a wildcard to match any characters).
                  */
                 'domains' => [
                     '*',
@@ -106,7 +106,7 @@ return [
                 ],
 
                 /*
-                 * Match only routes whose paths match this pattern (use * as a wildcard to match any characters).
+                 * Matcher only routes whose paths match this pattern (use * as a wildcard to match any characters).
                  */
                 'prefixes' => [
                     '*',
@@ -114,7 +114,7 @@ return [
                 ],
 
                 /*
-                 * Match only routes registered under this version. This option is ignored for Laravel router.
+                 * Matcher only routes registered under this version. This option is ignored for Laravel router.
                  * Note that wildcards are not supported.
                  */
                 'versions' => [

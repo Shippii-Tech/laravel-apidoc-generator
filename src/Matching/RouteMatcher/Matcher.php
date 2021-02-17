@@ -4,7 +4,7 @@ namespace Mpociot\ApiDoc\Matching\RouteMatcher;
 
 use Illuminate\Routing\Route;
 
-class Match implements \ArrayAccess
+class Matcher implements \ArrayAccess
 {
     /**
      * @var Route
@@ -17,7 +17,7 @@ class Match implements \ArrayAccess
     protected $rules;
 
     /**
-     * Match constructor.
+     * Matcher constructor.
      *
      * @param Route $route
      * @param array $applyRules
